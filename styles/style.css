@@ -49,6 +49,7 @@ ul li span {
 ul li {
     list-style-type: none;
     margin-bottom: 10px;
+    display: flex;
 }
 
 ul {
@@ -112,4 +113,28 @@ picture {
     background-color: #8eb1beb4;
     box-shadow: 6px 6px 0px rgba(0,0,0,.4);
     font-family: sans-serif;
+}
+
+input {
+    width:17px;
+    height:17px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+.indented {
+    margin-left: 50px;
+}
+
+@media (max-width: 530px) {
+    #mainIcon {
+        height: 17vh;
+    }
+}
+
+#spaced {
+    margin-top: 30px;
 }
